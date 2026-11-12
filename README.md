@@ -22,9 +22,12 @@ src/
 ```
 
 ## 常用命令
+
+> 以下命令均在 `prototype/` 子目录内执行(`cd prototype`)。
+
 - `npm run dev` 启动开发服务器
-- `npm run build` 构建生产包
-- `npm run build:single` 生成单文件交付物 `prototype.html`
+- `npm run build` 构建生产包(输出到 `prototype/dist/`)
+- `npm run build:single` 生成单文件交付物,输出到仓库根 `prototype.html`
 - `npm run typecheck` 类型检查
 
 ## 交付方式
